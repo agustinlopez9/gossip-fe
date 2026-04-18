@@ -33,7 +33,7 @@ const PostRoot = ({
     >
       <div
         onClick={handleClick}
-        className={`text-primary bg-surface-primary border-border-subtle relative border ${enableHover && !dropdownOpen ? "hover:border-border-interactive" : ""} ${onClick && !dropdownOpen ? "cursor-pointer" : ""} m-2 rounded-sm p-4 shadow-sm transition duration-200 ease-in-out`}
+        className={`text-primary bg-surface-secondary border-border-subtle relative border ${enableHover && !dropdownOpen ? "hover:border-border-interactive" : ""} ${onClick && !dropdownOpen ? "cursor-pointer" : ""} m-2 rounded-sm p-4 shadow-sm transition duration-200 ease-in-out`}
       >
         {children}
       </div>

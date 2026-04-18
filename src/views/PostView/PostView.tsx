@@ -40,14 +40,18 @@ const PostView = () => {
   }
 
   return (
-    <div className="relative">
-      <Button
-        variant="secondary"
-        className="absolute top-6 -left-12 z-20 rounded-full p-2"
-        onClick={() => navigate(-1)}
-      >
-        <FaArrowLeft />
-      </Button>
+    <div>
+      <div className="sticky top-0 z-10 px-4 py-3 flex items-center gap-3 backdrop-blur-md bg-surface-base/85 border-b border-border-subtle">
+        <Button
+          variant="secondary"
+          size="icon"
+          className="rounded-full"
+          onClick={() => navigate(-1)}
+        >
+          <FaArrowLeft />
+        </Button>
+        <span className="font-display font-bold text-base text-primary">Post</span>
+      </div>
 
       <Post postId={post.id} enableHover={false}>
         <Post.Header avatar={post.avatar} name={post.name} createdAt={post.createdAt} />

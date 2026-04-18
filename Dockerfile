@@ -40,7 +40,7 @@ RUN test -d dist || (echo "Build failed: dist directory not found" && exit 1)
 # ==================================
 FROM nginx:alpine AS runner
 
-LABEL description="my-social-app - Production Image"
+LABEL description="gossip-fe - Production Image"
 LABEL version="1.0"
 
 COPY --from=builder /app/dist /usr/share/nginx/html

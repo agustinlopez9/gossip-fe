@@ -1,6 +1,9 @@
 export interface User {
   name: string;
+  username: string;
   avatar: string;
+  bio?: string;
+  coverImage?: string;
 }
 
 export interface AuthContextType {

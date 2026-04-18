@@ -11,8 +11,17 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: var(--color-surface-base);
-  font-family: "Lato", sans-serif;
+  background-color: var(--color-surface-navbar);
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.font-display {
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+
+.glass-sidebar {
+  backdrop-filter: blur(12px) saturate(1.4);
+  background-color: color-mix(in oklch, var(--color-surface-navbar) 88%, transparent);
 }
 
 @layer components {
@@ -83,6 +92,11 @@ body {
   .btn-large {
     @apply px-6 py-3;
     font-size: var(--font-size-body-lg);
+  }
+
+  .btn-icon {
+    @apply p-2;
+    font-size: var(--font-size-body);
   }
 }
 

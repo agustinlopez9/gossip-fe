@@ -1,7 +1,7 @@
 {
   "common": {
     "labels": {
-      "brand": "SyncUp!",
+      "brand": "Gossip!",
       "loading": "Loading...",
       "error": "Error"
     },
@@ -54,7 +54,8 @@
     "labels": {
       "title": "Post",
       "createTitle": "Create a post",
-      "titlePlaceholder": "Enter a title...",
+      "titlePlaceholder": "What are you thinking?",
+      "titleInputPlaceholder": "Write a title...",
       "placeholder": "Share something new..."
     },
     "errors": {

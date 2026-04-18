@@ -27,7 +27,7 @@ const Filters = () => {
   };
 
   return (
-    <div className="mb-4 flex justify-between gap-2 px-2">
+    <div className="my-2 px-2">
       <div className="flex flex-row gap-2">
         {/* TODO: Implement filters functionality */}
         <RadioGroup>

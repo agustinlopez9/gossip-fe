@@ -3,7 +3,6 @@ import { Outlet } from "react-router";
 import { Toaster } from "react-hot-toast";
 import { colors } from "theme";
 import { AuthProvider } from "context/AuthContext";
-import Navbar from "components/layout/Navbar";
 
 const queryClient = new QueryClient();
 
@@ -34,10 +33,7 @@ function App() {
             },
           }}
         />
-        <Navbar />
-        <div className="mx-auto my-20 max-w-4xl">
-          <Outlet />
-        </div>
+        <Outlet />
       </QueryClientProvider>
     </AuthProvider>
   );

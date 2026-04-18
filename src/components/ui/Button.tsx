@@ -2,7 +2,7 @@ import type { ReactNode } from "react";
 import LoadingIndicator from "./Loading";
 
 type ButtonVariant = "primary" | "secondary" | "outlined";
-type ButtonSize = "small" | "medium" | "large";
+type ButtonSize = "small" | "medium" | "large" | "icon";
 type IconPosition = "start" | "end";
 
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {

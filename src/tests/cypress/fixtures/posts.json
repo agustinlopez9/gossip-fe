@@ -1,0 +1,36 @@
+{
+  "mockPosts": [
+    {
+      "id": "post-1",
+      "title": "First Test Post",
+      "content": "This is the first test post content",
+      "name": "Test User",
+      "avatar": "https://example.com/avatar1.jpg",
+      "createdAt": "2025-12-03T10:00:00Z"
+    },
+    {
+      "id": "post-2",
+      "title": "Second Test Post",
+      "content": "This is the second test post content",
+      "name": "Test User",
+      "avatar": "https://example.com/avatar1.jpg",
+      "createdAt": "2025-12-03T09:00:00Z"
+    }
+  ],
+  "newPost": {
+    "id": "new-post-id",
+    "title": "New Test Post",
+    "content": "New post content",
+    "name": "Test User",
+    "avatar": "https://example.com/avatar1.jpg",
+    "createdAt": "2025-12-03T11:00:00Z"
+  },
+  "editedPost": {
+    "id": "post-1",
+    "title": "Edited Post Title",
+    "content": "Edited post content",
+    "name": "Test User",
+    "avatar": "https://example.com/avatar1.jpg",
+    "createdAt": "2025-12-03T10:00:00Z"
+  }
+}

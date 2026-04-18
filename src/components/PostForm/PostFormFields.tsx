@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import type { UseFormRegister, FieldErrors, FieldPath } from "react-hook-form";
-import FormInput from "components/formComponents/FormInput";
-import FormTextArea from "components/formComponents/FormTextArea";
+import FormInput from "components/FormComponents/FormInput";
+import FormTextArea from "components/FormComponents/FormTextArea";
 import Button from "components/ui/Button";
 import type { CreatePostFormData, EditPostFormData } from "./types";
 

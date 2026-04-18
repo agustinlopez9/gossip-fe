@@ -1,6 +1,6 @@
 services:
-  my-social-app:
-    image: my-social-app:latest
+  gossip-fe:
+    image: gossip-fe:latest
     build:
       context: .
       dockerfile: ./Dockerfile

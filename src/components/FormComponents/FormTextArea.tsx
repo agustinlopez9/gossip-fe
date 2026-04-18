@@ -12,6 +12,7 @@ const FormTextArea = forwardRef<HTMLTextAreaElement, FormTextAreaProps>(
         {label && <label className="text-primary text-body-sm mb-1 block">{label}</label>}
         <textarea
           ref={ref}
+          data-cy="form-textarea"
           className={`bg-surface-input text-body text-primary min-h-24 w-full resize-none rounded-md border p-2 ${
             error ? "border-error" : "border-border-subtle focus:border-border-focus"
           } placeholder:text-placeholder focus:outline-none ${className}`}

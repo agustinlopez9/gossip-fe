@@ -1,7 +1,7 @@
 {
   "common": {
     "labels": {
-      "brand": "SyncUp!",
+      "brand": "Gossip!",
       "loading": "Cargando...",
       "error": "Error"
     },
@@ -54,7 +54,8 @@
     "labels": {
       "title": "Publicación",
       "createTitle": "Crear una publicación",
-      "titlePlaceholder": "Ingresa un título...",
+      "titlePlaceholder": "¿Qué estás pensando?",
+      "titleInputPlaceholder": "Escribe un título...",
       "placeholder": "Comparte algo nuevo..."
     },
     "errors": {

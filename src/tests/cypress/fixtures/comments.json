@@ -1,0 +1,36 @@
+{
+  "mockComments": [
+    {
+      "id": "comment-1",
+      "content": "Great post!",
+      "name": "Test User",
+      "avatar": "https://example.com/avatar1.jpg",
+      "createdAt": "2025-12-03T10:30:00Z",
+      "parentId": null
+    },
+    {
+      "id": "comment-2",
+      "content": "I agree with you",
+      "name": "Test User",
+      "avatar": "https://example.com/avatar1.jpg",
+      "createdAt": "2025-12-03T10:45:00Z",
+      "parentId": null
+    }
+  ],
+  "newComment": {
+    "id": "new-comment-id",
+    "content": "This is a new comment",
+    "name": "Test User",
+    "avatar": "https://example.com/avatar1.jpg",
+    "createdAt": "2025-12-03T11:00:00Z",
+    "parentId": null
+  },
+  "editedComment": {
+    "id": "comment-1",
+    "content": "Edited comment content",
+    "name": "Test User",
+    "avatar": "https://example.com/avatar1.jpg",
+    "createdAt": "2025-12-03T10:30:00Z",
+    "parentId": null
+  }
+}

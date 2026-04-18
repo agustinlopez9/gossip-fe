@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import type { UseFormRegister, FieldErrors, FieldPath } from "react-hook-form";
-import FormTextArea from "components/formComponents/FormTextArea";
+import FormTextArea from "components/FormComponents/FormTextArea";
 import Button from "components/ui/Button";
 import type { CreateCommentFormData, EditCommentFormData } from "./types";
 

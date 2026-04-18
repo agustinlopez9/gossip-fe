@@ -96,4 +96,9 @@
   --color-interactive-secondary: oklch(42% 0.006 286);
   --color-interactive-secondary-hover: oklch(58% 0.2 41);
   --color-interactive-secondary-active: oklch(47% 0.157 37.304);
+
+  /* ========================================
+     SEMANTIC TOKENS - Sidebar
+     ======================================== */
+  --color-surface-sidebar-active: oklch(32% 0.015 41);
 }

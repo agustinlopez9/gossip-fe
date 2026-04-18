@@ -12,6 +12,7 @@ const FormInput = forwardRef<HTMLInputElement, FormInputProps>(
         {label && <label className="text-primary text-body-sm mb-1 block">{label}</label>}
         <input
           ref={ref}
+          data-cy="form-input"
           className={`bg-surface-input text-body text-primary w-full rounded-md border p-2 ${
             error ? "border-error" : "border-border-subtle focus:border-border-focus"
           } placeholder:text-placeholder focus:outline-none ${className}`}
