@@ -1,6 +1,6 @@
-# SyncUp!
+# Gossip!
 
-SyncUp is my project for a social network website, written in React.js with Typescript and styled with Tailwind. Among the core highlights of this project are:
+Gossip is my project for a social network website, written in React.js with Typescript and styled with Tailwind. Among the core highlights of this project are:
 
 - Dynamic styling with TailwindCSS to make colors and font-sizes across the page easy to change.
 - Reusable Components using design patterns (i.e: Compound components) and SOLID principles.
